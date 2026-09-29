@@ -51,6 +51,8 @@ pip install -r requirements.txt
 > **ចំណាំ:** កម្មវិធីតម្រូវឱ្យមាន `ffmpeg` ដំឡើងក្នុងប្រព័ន្ធកុំព្យូទ័រ (System PATH) សម្រាប់ដំណើរការ Whisper, PyDub និង OpenCV។
 
 ### ៤. បើកដំណើរការកម្មវិធី
+- **ជម្រើសទី ១ (ងាយស្រួលបំផុត):** ចុចពីរដង (Double Click) លើឯកសារ `Start_App.bat`
+- **ជម្រើសទី ២ (តាម Terminal):**
 ```bash
 python app.py
 ```
