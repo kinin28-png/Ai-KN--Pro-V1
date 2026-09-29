@@ -12,6 +12,7 @@ __pycache__/
 # PyInstaller / Packaging
 *.manifest
 *.spec
+*.exe
 build/
 dist/
 
