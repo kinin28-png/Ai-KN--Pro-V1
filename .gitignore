@@ -1,0 +1,34 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Packaging
+*.manifest
+*.spec
+build/
+dist/
+
+# Temporary / Output Media Files
+*.mp3
+*.wav
+*.mp4
+*.mkv
+*.avi
+*.flv
+temp_*
+output_*
+
+# Whisper models (downloaded model weights)
+*.pt
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/

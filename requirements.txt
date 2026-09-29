@@ -1,0 +1,10 @@
+customtkinter
+openai-whisper
+yt-dlp
+edge-tts
+pydub
+requests
+deep-translator
+soundfile
+opencv-python
+pillow
