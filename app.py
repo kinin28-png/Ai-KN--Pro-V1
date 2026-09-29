@@ -4,6 +4,12 @@ if sys.stdout is None:
     sys.stdout = open(os.devnull, "w", encoding="utf-8")
 if sys.stderr is None:
     sys.stderr = open(os.devnull, "w", encoding="utf-8")
+
+# កំណត់ PATH ឱ្យស្គាល់ ffmpeg ប្រសិនបើមានក្នុង Folder ជាមួយ App
+_app_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
+if _app_dir and _app_dir not in os.environ.get("PATH", ""):
+    os.environ["PATH"] = _app_dir + os.pathsep + os.environ.get("PATH", "")
+
 import re
 import time
 import tempfile
